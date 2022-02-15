@@ -1,0 +1,117 @@
+.servicos1 {
+  background: #9a8aa4;
+  max-width: 100%;
+}
+
+.container-servicos1 {
+  max-width: 940px;
+  min-height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-servicos1 img {
+  margin: 40px 65px 40px 40px;
+}
+
+.container-servicos1 div {
+  color: white;
+  max-width: 500px;
+}
+
+.container-servicos1 div h2 {
+  margin: 32px 0 15px 0;
+}
+
+#textoServico1 {
+  margin-bottom: 15px;
+}
+
+/*----- Quem Pode -----*/
+
+.container-quempode {
+  max-width: 940px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+.container-quempode h2 {
+  margin: 40px auto 20px;
+  text-align: center;
+}
+.container-quempode div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.quemPodeCard {
+  height: 300px;
+  width: 260px;
+  background: #9a8aa4;
+  border-radius: 10px;
+}
+
+.quemPodeCard img {
+  margin: 20px;
+}
+.quemPodeCard p {
+  color: white;
+  margin: 0px 20px 20px;
+  font-weight: bold;
+}
+
+.container-quempode a {
+  margin: 40px auto 40px;
+  padding: 16px;
+}
+
+/* ----------------------- */
+/* ------RESPONSIVO------- */
+/* ----------------------- */
+
+/* 930px */
+
+@media (max-width: 930px) {
+  .container-servicos1 {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .container-servicos1 img {
+    margin: 20px auto 0;
+  }
+
+  .container-servicos1 div {
+    margin: 10px auto;
+  }
+
+  .container-servicos1 div h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* 840px */
+
+@media (max-width: 840px) {
+  .container-servicos1 div p {
+    font-size: 12px;
+    margin: 0 20px 10px;
+  }
+
+  .container-quempode h2 {
+    margin-top: 20px;
+  }
+
+  .container-quempode a {
+    margin: 10px auto 20px;
+  }
+  .container-quempode div {
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  .quemPodeCard {
+    margin: 20px 0;
+  }
+}

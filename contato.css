@@ -1,0 +1,141 @@
+.contato-bg {
+  background: #f8f4fb;
+  min-height: 524px;
+}
+
+.contato-container {
+  max-width: 940px;
+  min-height: 524px;
+  margin: 0 auto;
+}
+
+.contato-container h2 {
+  text-align: center;
+  padding: 40px 0 0 0;
+  font-weight: regular;
+}
+
+.contato-container div {
+  display: flex;
+  margin: 20px 50px 40px;
+  justify-content: space-between;
+}
+
+.contato-container div form {
+  width: 300px;
+  min-height: 395px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contato-container div form label {
+  font-size: 16px;
+}
+
+.contato-container div form input {
+  font-size: 16px;
+  border: solid 2px #9a8aa4;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px 5px;
+  margin: 5px 0 10px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  min-width: 150px;
+}
+
+.contato-container div form a {
+  padding: 15px 42px;
+  width: 150px;
+}
+
+textarea {
+  height: 120px;
+  font-size: 16px;
+  border: solid 2px #9a8aa4;
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 5px 0 10px;
+}
+
+/*---- NOSSOS DADOS ----*/
+.nossos-dados {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  max-height: 290px;
+  flex-wrap: wrap;
+}
+
+.nossos-dados h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nossos-dados p,
+.nossos-dados a {
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1f1f28;
+}
+.nossos-dados p {
+  min-height: 140px;
+  width: 225px;
+  margin-top: 20px;
+}
+
+.nossos-dados ul {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nossos-dados ul li a {
+  height: 64px;
+  width: 64px;
+}
+
+.nossos-dados ul li a img {
+  height: 64px;
+  width: 64px;
+  margin-right: 5px;
+}
+
+/*---- MAPA ----*/
+
+.mapa-bg {
+  max-width: 100%;
+  background: #9a8aa4;
+}
+
+.mapa-bg img {
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: calc(100% - 40px);
+}
+
+/* ----------------------- */
+/* ------RESPONSIVO------- */
+/* ----------------------- */
+
+/*   570px   */
+
+@media (max-width: 570px) {
+  .contato-container h2 {
+    padding-top: 20px;
+  }
+
+  .contato-container div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contato-container div form a {
+    margin: 0 auto;
+  }
+
+  .nossos-dados p {
+    text-align: center;
+    min-height: 110px;
+  }
+}
